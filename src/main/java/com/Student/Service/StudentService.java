@@ -43,9 +43,9 @@ public class StudentService {
 	}
 	
 	
-//	public String  delete(int id)
-//	{
-//		srepo.deleteById(id);
-//		return "deleted student details of id " +id;
-//	}
+	public String  delete(int id)
+	{
+		srepo.deleteById(id);
+		return "deleted student details of id " +id;
+	}
 }
