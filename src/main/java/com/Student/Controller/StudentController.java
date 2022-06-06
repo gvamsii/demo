@@ -58,10 +58,10 @@ public class StudentController {
 	}
 	
 	//to delete data in table in data table
-	@DeleteMapping("/delete/{id}")
-	public String delete(@PathVariable int id)
-	{
-			return ss.delete(id);
-
-	}
+//	@DeleteMapping("/delete/{id}")
+//	public String delete(@PathVariable int id)
+//	{
+//			return ss.delete(id);
+//
+//	}
 }
